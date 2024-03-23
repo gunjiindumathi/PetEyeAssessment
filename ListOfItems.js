@@ -21,7 +21,9 @@ const ListOfItems = () => {
                         <Text style={styles.id}>item.id</Text>
                         <Text style={styles.Name}>item.name</Text>
                         <Text style={styles.qualification}>item.Qualification</Text>
-                        <ImageComponent style={styles.image}>item.image</ImageComponent>
+                        <ImageComponent style={styles.image}
+                       
+                        > source={item.image}</ImageComponent>
                     </View>
                 }
             </FlatList>
