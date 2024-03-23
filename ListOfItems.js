@@ -15,7 +15,7 @@ const ListOfItems = () => {
         <View>
             <FlatList style={styles.flatlistItems}>
                 data={data}
-                KeyExtractor= {(item) => (item.id.data)}
+                KeyExtractor= {(item) => (item.id)}
                 renderItem= {({ item }) =>
                     <View style={styles.containerView}>
                         <Text style={styles.id}>item.id</Text>
